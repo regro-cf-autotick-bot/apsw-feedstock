@@ -1,5 +1,5 @@
-{% set version = "3.51.0.0" %}
-{% set sqlite_version = "3.51.0" %}
+{% set version = "3.54.1.0" %}
+{% set sqlite_version = "3.54.1" %}
 
 package:
   name: apsw
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rogerbinns/apsw/releases/download/{{ version }}/apsw-{{ version }}.zip
-  sha256: bce744d323080b40800e1c69297def870309e3cff5d688c814c13317d254bec7
+  sha256: a6102ba4ef9a8d0e287b0600bb976d3339f7d65b5fc2e1848c1a93c8665a450d
 
 build:
   number: 1
@@ -55,3 +55,4 @@ about:
 extra:
   recipe-maintainers:
     - stuertz
+    - mikemhenry
